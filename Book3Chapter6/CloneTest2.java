@@ -107,7 +107,7 @@ class Employee implements Cloneable
  }
  
 
- @Override
+ 
     public String toString() {
         return this.getClass().getName() + "["
                 + this.firstName + " "
@@ -140,7 +140,7 @@ class Address implements Cloneable
         this.zipCode = zipCode;
     }
 
- @Override
+ 
     public Object clone() 
         
  {
