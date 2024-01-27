@@ -43,7 +43,7 @@ class Employee {
         return this.firstName;
     }
 
-
+   
     @Override
     public boolean equals(Object obj) {
         // an object must equal itself
